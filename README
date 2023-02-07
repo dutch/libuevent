@@ -1,0 +1,7 @@
+libuevent
+=========
+
+This is a very small library for papering over the various event
+mechanisms across different Unix-like systems. It's designed to be
+built tiny and statically linked, without any features it doesn't
+need.
