@@ -1,3 +1,8 @@
 #!/bin/sh
 
+autoreconf=$(command -v autoreconf)
+if [ -z "$autoreconf" ]; then
+    echo "no autoreconf found"
+    exit 1
+fi
 autoreconf -i
