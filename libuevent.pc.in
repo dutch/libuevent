@@ -3,4 +3,7 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
+Name: @PACKAGE_NAME@
+Version: @PACKAGE_VERSION@
+Cflags: -I${includedir}
 Libs: -L${libdir} -luevent
